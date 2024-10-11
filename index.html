@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Knight - Free Bootstrap 4 Product Landing Page Template</title>
+    <meta name="description"
+          content="Knight is a beautiful Bootstrap 4 template for product landing pages."/>
+
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/default.css" id="theme-color">
+</head>
+<body>
+
+<!--navigation-->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" class="img-logo" alt="Work 1">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#servicos">Atuação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#faq">Portifólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#blog">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!--quem somos-->
+<section class="py-7 py-md-0 bg-hero" id="home">
+    <div class="container">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize">Serviço rápido e eficiente, sem abrir mão da qualidade.</h1>
+                <p class="lead py-3">Precisa de uma reforma rápida, mas sem perder a qualidade? Nossa equipe especializada está pronta para transformar 
+                    seu ambiente com agilidade e eficiência. Ideal para quem tem pouco tempo, mas deseja um resultado impecável. </p>
+                <button class="btn btn-primary d-inline-flex flex-row align-items-center">
+                    Faça um orçamento
+                    <em class="ml-2" data-feather="arrow-right"></em>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- slider -->
+<section  class="py-7 section-slider" id="servicos" class="py-7 bg-center section-angle top-right bottom-right" id="pricing">
+    <div class="container">
+        <h2 class="text-center text-amarelo mb-5">Nossos Serviços</h2>
+        
+        <!-- Slider -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="https://via.placeholder.com/800x400" alt="Pisos">
+                <h3 class="slide-title">Pisos</h3>
+              </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="https://via.placeholder.com/800x400" alt="Pinturas">
+                <h3 class="slide-title">Pinturas</h3>
+              </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="https://via.placeholder.com/800x400" alt="Alvenaria">
+                <h3 class="slide-title">Alvenaria</h3>
+              </div>
+            </div>
+    
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="https://via.placeholder.com/800x400" alt="Telhados">
+                <h3 class="slide-title">Telhados</h3>
+              </div>
+            </div>
+    
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="https://via.placeholder.com/800x400" alt="Reboco">
+                <h3 class="slide-title">Reboco</h3>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Add Pagination
+          <div class="swiper-pagination"></div> -->
+          
+          <!-- Navigation Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+      delay: 3000, // 3 segundos entre os slides
+      disableOnInteraction: false, // Continua rodando mesmo se o usuário interagir
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
+<!--portifolio-->
+<section class="py-7" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="heading-black">Portifólio</h2>
+                <p class="text-muted lead">Nossos serviços prestados.</p>
+            </div>
+        </div>
+
+        <!-- parte um -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/fundo.jpeg" alt="Blog 1">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Nome do serviço</h5></a>
+                        <p class="text-muted small-xl mb-2">Sep 27, 2018</p>
+                        <p class="text-muted">Explicação do serviço realizado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/fundo.jpeg" alt="Blog 2">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Nome do serviço</h5></a>
+                        <p class="text-muted small-xl mb-2">Sep 27, 2018</p>
+                        <p class="text-muted">Explicação do serviço realizado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/fundo.jpeg" alt="Blog 3">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Nome do serviço</h5></a>
+                        <p class="text-muted small-xl mb-2">Sep 27, 2018</p>
+                        <p class="text-muted">Explicação do serviço realizado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- parte dois -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/fundo.jpeg" alt="Blog 1">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Nome do serviço</h5></a>
+                        <p class="text-muted small-xl mb-2">Sep 27, 2018</p>
+                        <p class="text-muted">Explicação do serviço realizado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/fundo.jpeg" alt="Blog 2">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Nome do serviço</h5></a>
+                        <p class="text-muted small-xl mb-2">Sep 27, 2018</p>
+                        <p class="text-muted">Explicação do serviço realizado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/fundo.jpeg" alt="Blog 3">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Nome do serviço</h5></a>
+                        <p class="text-muted small-xl mb-2">Sep 27, 2018</p>
+                        <p class="text-muted">Explicação do serviço realizado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row mt-6">
+            <div class="col-md-6 mx-auto text-center">
+                <a href="#" class="btn btn-primary">View all posts</a>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+<!-- video -->
+<section class="py-7 section-video" id="video">
+    <div class="container">
+      <h2 class="text-center text-amarelo mb-5">Veja Nosso Trabalho em Ação</h2>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <div class="video-container">
+            <!-- Video do YouTube -->
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/EXEMPLO" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- feedback -->
+<section class="py-7 section-feedback" id="feedback">
+    <div class="container">
+      <h2 class="text-center text-petroleo mb-5">O Que Nossos Clientes Dizem</h2>
+      
+      <div class="row">
+        <!-- Depoimento 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="feedback-content">
+            <p class="feedback-text">"A MJ Construção fez um excelente trabalho na reforma da minha casa. A equipe foi rápida e eficiente. Recomendo muito!"</p>
+            <h3 class="feedback-author">- João Silva</h3>
+          </div>
+        </div>
+  
+        <!-- Depoimento 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="feedback-content">
+            <p class="feedback-text">"Serviço de alta qualidade, profissionais competentes e prazo cumprido. Estou muito satisfeito com o resultado!"</p>
+            <h3 class="feedback-author">- Maria Oliveira</h3>
+          </div>
+        </div>
+  
+        <!-- Depoimento 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="feedback-content">
+            <p class="feedback-text">"A equipe da MJ Construção transformou meu espaço com uma reforma impecável. Com certeza, voltarei a contratar!"</p>
+            <h3 class="feedback-author">- Carlos Lima</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+  
+<!--orçamento-->
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="blog">
+    <div class="container">
+        <div class="row">
+          <!-- Mapa do Google -->
+          <div class="col-lg-6 col-md-12">
+            <h2 class="text-center">Nossa Localização</h2>
+            <div class="map-container">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509445!2d144.95373631558937!3d-37.81627944202153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sbr!4v1644144177003!5m2!1sen!2sbr" 
+                width="100%" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+          </div>
+    
+          <!-- Formulário de Orçamento -->
+          <div class="col-lg-6 col-md-12">
+            <h2 class="text-center"> Solicite um Orçamento</h2>
+            <form action="#" method="POST" class="budget-form">
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Digite seu telefone" required>
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" class="form-control" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!--footer-->
+<footer class="py-6">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+                &copy; 2019 Knight - All Rights Reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
